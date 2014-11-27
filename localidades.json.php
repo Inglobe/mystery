@@ -34,7 +34,7 @@
 
 	$data = array();
 
-	print_r($result);
+	//print_r($result);
 
 	while($fila = mysql_fetch_assoc($result)){
 		$data[] = to_utf8($fila);
