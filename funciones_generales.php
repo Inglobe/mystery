@@ -126,7 +126,7 @@ function mail_html($para,$remitente_email,$remitente_nombre,$reply_to,$asunto,$h
 			$mail->Username = $fila_parametros["usr_smtp"];
 			$mail->Password = $fila_parametros["pass_smtp"];
 
-			$mail->From = $remitente_email;
+			$mail->From = "website@mail.mysterysur.com.ar";
 			$mail->FromName = $remitente_nombre;
 			$mail->AddReplyTo($reply_to);
 			$mail->AddAddress($para);
