@@ -1,0 +1,135 @@
+/* Tareas */
+#tareas{
+	clear: both;
+	float:left;
+	margin-top: 8px;
+	width: 100%;
+}
+.tarea_0 {
+	background-color: #F2F2F2;
+	overflow: visible;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	float:left;
+	clear: both;
+	width: 100%;
+}
+.tarea_1 {
+	background-color: #F6F6F6;
+	overflow: visible;
+	width: 100%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	float:left;
+	clear: both;
+}
+.tarea_2 {
+	background-color: #F9F9F9;
+	overflow: visible;
+	width: 100%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	float:left;
+	clear: both;
+}
+.tarea_3 {
+	background-color: #FFFFFF;
+	overflow: visible;
+	width: 100%;
+	float:left;
+	clear: both;
+}
+.tarea_0 .icono {
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	float:left;
+}
+.tarea_1 .icono {
+	padding-left: 15px;
+	float:left;
+}
+.tarea_2 .icono {
+	padding-left: 25px;
+	float:left;
+}
+.tarea_3 .icono {
+	padding-left: 35px;
+	float:left;
+}
+#tareas img{
+	border:0px;
+}
+#tareas .prioridad {
+	float:left;
+	margin-right:5px;
+	margin-top: 4px;
+}
+/*#tareas .icono {
+	float:left;
+	margin-right:5px;
+}*/
+#tareas .descripcion {
+	float:left;
+	margin-right:5px;
+	margin-top: 5px;
+}
+a.acceso_denegado {
+	color: #999999 !important;
+}
+#tareas .descripcion_titulo {
+	font-weight:bold;
+	float:left;
+	margin-right:5px;
+	padding-top: 5px;
+}
+#tareas .comentarios {
+	padding-top: 6px;
+	float:right;
+}
+#tareas .obs {
+	padding-top: 4px;
+	float:right;
+	padding-right: 3px;
+}
+#tareas .obs_proceso {
+	padding-top: 4px;
+	float:right;
+	padding-right: 3px;
+}
+#tareas .obs_fin {
+	padding-top: 4px;
+	float:right;
+	padding-right: 3px;
+}
+#tareas .archivos {
+	padding-top: 4px;
+	float:right;
+	padding-right: 3px;
+}
+#tareas .fechas {
+	padding-top: 5px;
+	float:right;
+	margin-right:5px;
+	width:100px;
+	text-align:right;
+}
+#tareas .estado {
+	padding-top: 6px;
+	float:right;
+	margin-right: 5px;
+}
+#tareas .agregar_sub_tarea {
+	padding-top: 6px;
+	float:right;
+	padding-right: 2px;
+}
+#tareas .eliminar_tarea {
+	padding-top: 6px;
+	float:right;
+	margin-right: 5px;
+}

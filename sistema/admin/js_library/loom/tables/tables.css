@@ -1,0 +1,39 @@
+/**
+ * The paged links CSS has been extracted and adapted from  
+ * http://woork.blogspot.com/2008/03/perfect-pagination-style-using-css.html
+ *
+ */
+
+/* --- Link table --- */
+tr.link { cursor: pointer; }
+
+/* --- Paged lists --- */
+
+/* common */
+div.paged ul.links { border:0; margin: 1em 0; padding:0; overflow: hidden; width: 99%; }
+div.paged ul.links:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+div.paged ul.links li { border:0; margin:0; padding:0; list-style:none; margin-right:2px; float:left; }
+div.paged ul.links a  { border:solid 1px #9aafe5; margin-right:2px; color: #2e6ab1; }
+div.paged ul.links li.disabled { border:solid 1px #DEDEDE; color:#888888; display:block; float:left; font-weight:bold; margin-right:2px; padding:3px 4px; }
+div.paged ul.links .next a,
+div.paged ul.links .previous a { font-weight:bold; }
+div.paged ul.links .active { background:#2e6ab1; color:#FFFFFF; font-weight:bold; display:block; float:left; padding:4px 6px; }
+div.paged ul.links a:link,
+div.paged ul.links a:visited { color:#0e509e; display:block; float:left; padding:3px 6px; text-decoration:none; }
+div.paged ul.links a:hover { border:solid 1px #0e509e; background-color: #fff; }
+
+div.paged a { color: #000; }
+div.paged a:hover { background-color: #ddEeFF; }
+div.paged .even { background: #a4c3d6; }
+div.paged .odd { background: #c5e8ff; }
+
+/* paged table */
+div.paged table { width: 100%; }
+div.paged th.asc { background: #777 url("arrow_up.gif") no-repeat 98% 50%; }
+div.paged th.desc { background: #777 url("arrow_down.gif") no-repeat 98% 50%; }
+div.paged th a { color: #fff; }
+div.paged th a:hover { color: #fff; background-color: transparent; }
+
+/* paged list */
+div.paged ul.data { list-style-type: none; margin: 0; }
+div.paged ul.data li { padding: .5em 1em; margin: 0; border: 1px solid #fff; }

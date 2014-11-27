@@ -1,0 +1,168 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+}
+#contenedor {
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo {
+	float: left;
+}
+.fecha {
+	float: right;
+}
+.header{
+	position: relative;
+}
+.usuarios {
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	width: 100%;
+}
+.usuarios ul{
+	float:right;
+}
+.usuarios li{
+	list-style-type: none;
+	float: left;
+}
+.usuarios li .cont_usuario{
+	text-align:center;
+	width: 55px;
+	height: 60px;
+}
+.usuarios li .cont_usuario img{
+	border: 1px solid #666666;
+	clear: right;
+}
+.usuarios li .cont_usuario span{
+	font-size: 9px;
+}
+h1{
+	clear: both;
+	font-size: 16px;
+	color: #666666;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	margin: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.linea_datos {
+	overflow: hidden;
+}
+.subtit {
+	float: left;
+	font-weight: bold;
+	padding-right: 4px;
+	width: 120px;
+	text-align: right;
+}
+#contenedor .datos {
+	margin-bottom:14px;
+}
+.dato {
+	float: left;
+}
+#contenedor table {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	margin-bottom:15px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+}
+#contenedor thead th {
+	text-align: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+#contenedor th {
+	text-align: center;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+#contenedor td {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+.total {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.recuadrito_total {
+	float: right;
+	padding: 5px;
+	border: 1px solid #000000;
+}
+.cont_pagina {
+
+}
+.tit_total {
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+}
+.td_subtototales {
+	padding:0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+#contenedor table .td_subtototales table{
+	border:none;
+	margin-bottom:0px;
+}
+#contenedor table .td_subtototales table td{
+	border:none;
+}
+#contenedor table .td_subtototales table th{
+	text-align:right;
+	border:none;
+}
+#no_data{
+	padding: 50px;
+	border: 1px solid #000000;
+	font-weight:bold;
+	overflow:hidden;
+	text-align:center;
+	position:relative;
+}
+#no_data img{
+	position:absolute;
+	top:48px;
+	left:182px;
+}

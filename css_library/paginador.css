@@ -1,0 +1,56 @@
+/*paginador*/
+#esquina_izq {
+	background-image: url(../imagenes/paginador/fondo_izq.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 7px;
+	float: left;
+	margin-left: 5px;
+}
+#esquina_der {
+	background-image: url(../imagenes/paginador/fondo_der.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 17px;
+	width: 7px;
+	margin-right: 2px;
+}
+#contenedor_paginador {
+	clear: both;
+	height:1%;
+	overflow:hidden;
+	margin-bottom:20px;
+	background-color:#000;
+}
+#paginador {
+	float: right;
+	font-size:11px;
+	padding-top: 15px;
+	padding-right: 40px;
+	padding-bottom: 15px;
+}
+#pagina_actual {
+	float: left;
+	color: #999999;
+	padding-right: 5px;
+	padding-top: 1px;
+	font-weight: bold;
+}
+#controles_paginador {
+	float: left;
+}
+#controles_paginador img {
+	padding-left: 3px;
+}
+#ir_pagina{
+	float: left;
+	background-image: url(../imagenes/paginador/fondo_detras.gif);
+	background-repeat: repeat-x;
+	height: 17px;
+}
+.puntos {
+	float: left;
+}
+.numeros {
+	float: left;
+}

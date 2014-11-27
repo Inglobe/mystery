@@ -1,0 +1,144 @@
+/*tags*/
+a {
+	color: #666666;
+	text-decoration:none;
+}
+a:hover {
+	color: #666666;
+	text-decoration:underline;
+}
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	background-image: url(../imagenes/sombra_input.gif);
+	background-repeat: no-repeat;
+	border: 1px solid #CDC5BA;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+/*main*/
+.bug {
+	clear: both;
+}
+/*proyecto*/
+
+#columna_proyecto_der {
+	float: left;
+	margin-top: 10px;
+	width:100%;
+}
+#columna_proyecto_top_contenido {
+	position: relative;
+	border: 1px solid #CCCCCC;
+	height:100px;
+}
+#datos_proyecto {
+	position:absolute;
+	width:350px;
+	left: 298px;
+	top: 4px;
+}
+.fujiyama_proyecto {
+	font-size: 14px;
+	color: #909090;
+	margin-left: 10px;
+}
+#tit_proyecto_top {
+	width: 430px;
+	padding-top: 5px;
+}
+#ico_arbol_top {
+	position: absolute;
+	top: 1px;
+}
+#ico_torta_proyecto {
+	position: absolute;
+	left: 164px;
+}
+#estado_proyecto {
+	padding-top: 5px;
+	padding-left: 40px;
+	text-align: right;
+}
+.texto_azul {
+	color: #063974;
+}
+#btn_mprimir_proyecto {
+	position: absolute;
+	left: 494px;
+	top: 7px;
+}
+#ico_fecha_proyecto {
+	position: absolute;
+	left: 59px;
+	top: 8px;
+}
+#fechas_proyectos {
+	text-align: right;
+	margin-top: 18px;
+	position: relative;
+	height:1%;
+}
+#tareas_contenido {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+#logo {
+	float: left;
+}
+#datos_usuario {
+	text-align: right;
+	float: right;
+	position:relative;
+}
+#proyecto {
+	width:660px;
+	margin:auto;
+	text-align:left;
+}
+#fecha_usuario {
+	position: absolute;
+	left: -316px;
+	width: 305px;
+	top: 29px;
+}
+.usuarios {
+	position: absolute;
+	top: 40px;
+	left: -286px;
+	width: 450px;
+}
+.usuarios ul{
+	padding:0px;
+	margin:0px;
+}
+.usuarios li{
+	list-style-type: none;
+	float: left;
+}
+.usuarios li .cont_usuario{
+	text-align:center;
+	width: 46px;
+	height: 40px;
+	float: left;
+}
+.usuarios li .cont_usuario img{
+	border: 1px solid #cccccc;
+	float: left;
+	clear: right;
+}
+.usuarios li .cont_usuario span{
+	clear: left;
+	font-size: 9px;
+}#pie_print {
+	clear: both;
+	padding-top: 10px;
+}

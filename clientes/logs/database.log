@@ -1,0 +1,1027 @@
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC' at line 7
+SQL: 
+SELECT 
+					*
+				FROM 		
+					tareas
+				WHERE 		
+					id_tarea_padre = 0 AND
+					id_proyecto =  AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC
+				
+
+-----
+Informacion: 
+	- Fecha: 21/08/2012 14:07:18
+	- Agente: Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1
+	- IP: 200.127.81.95
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_todas_variables
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC' at line 7
+SQL: 
+SELECT 
+					*
+				FROM 		
+					tareas
+				WHERE 		
+					id_tarea_padre = 0 AND
+					id_proyecto =  AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC
+				
+
+-----
+Informacion: 
+	- Fecha: 21/08/2012 14:13:03
+	- Agente: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1
+	- IP: 201.213.43.41
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_todas_variables
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC' at line 7
+SQL: 
+SELECT 
+					*
+				FROM 		
+					tareas
+				WHERE 		
+					id_tarea_padre = 0 AND
+					id_proyecto =  AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC
+				
+
+-----
+Informacion: 
+	- Fecha: 21/08/2012 14:15:05
+	- Agente: Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1
+	- IP: 200.127.81.95
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_todas_variables
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC' at line 7
+SQL: 
+SELECT 
+					*
+				FROM 		
+					tareas
+				WHERE 		
+					id_tarea_padre = 0 AND
+					id_proyecto =  AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC
+				
+
+-----
+Informacion: 
+	- Fecha: 21/08/2012 14:16:15
+	- Agente: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.79 Safari/537.1
+	- IP: 201.213.43.41
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_todas_variables
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC' at line 7
+SQL: 
+SELECT 
+					*
+				FROM 		
+					tareas
+				WHERE 		
+					id_tarea_padre = 0 AND
+					id_proyecto =  AND
+					ocultar = 0
+					
+				ORDER BY	
+					orden ASC
+				
+
+-----
+Informacion: 
+	- Fecha: 21/08/2012 14:17:35
+	- Agente: Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1
+	- IP: 200.127.81.95
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_todas_variables
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 04/03/2013 11:45:30
+	- Agente: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0
+	- IP: 181.164.226.253
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: POST
+	- GET: put=home
+	- POST: login=1&user=test&pass=test&Submit=Ok
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY nombre ASC LIMIT 1' at line 1
+SQL: 
+SELECT id_proyecto FROM proyectos WHERE plantilla = 1 AND id_cliente =  ORDER BY nombre ASC LIMIT 1
+
+-----
+Informacion: 
+	- Fecha: 04/03/2013 11:46:22
+	- Agente: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0
+	- IP: 181.164.226.253
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_variables_generales
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY nombre ASC LIMIT 1' at line 1
+SQL: 
+SELECT id_proyecto FROM proyectos WHERE plantilla = 1 AND id_cliente =  ORDER BY nombre ASC LIMIT 1
+
+-----
+Informacion: 
+	- Fecha: 04/03/2013 11:46:31
+	- Agente: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0
+	- IP: 181.164.226.253
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_variables_generales
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY nombre ASC LIMIT 1' at line 1
+SQL: 
+SELECT id_proyecto FROM proyectos WHERE plantilla = 1 AND id_cliente =  ORDER BY nombre ASC LIMIT 1
+
+-----
+Informacion: 
+	- Fecha: 04/03/2013 11:46:33
+	- Agente: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0
+	- IP: 181.164.226.253
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_variables_generales
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY nombre ASC LIMIT 1' at line 1
+SQL: 
+SELECT id_proyecto FROM proyectos WHERE plantilla = 1 AND id_cliente =  ORDER BY nombre ASC LIMIT 1
+
+-----
+Informacion: 
+	- Fecha: 04/03/2013 11:46:34
+	- Agente: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0
+	- IP: 181.164.226.253
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_ventas
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY nombre ASC LIMIT 1' at line 1
+SQL: 
+SELECT id_proyecto FROM proyectos WHERE plantilla = 1 AND id_cliente =  ORDER BY nombre ASC LIMIT 1
+
+-----
+Informacion: 
+	- Fecha: 04/03/2013 11:46:36
+	- Agente: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0
+	- IP: 181.164.226.253
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_relacion_venta_atencion
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY nombre ASC LIMIT 1' at line 1
+SQL: 
+SELECT id_proyecto FROM proyectos WHERE plantilla = 1 AND id_cliente =  ORDER BY nombre ASC LIMIT 1
+
+-----
+Informacion: 
+	- Fecha: 04/03/2013 11:46:52
+	- Agente: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0
+	- IP: 181.164.226.253
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_variables_generales
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/04/2013 14:59:25
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.3.6; es-us; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+	- IP: 181.93.136.155
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: POST
+	- GET: put=home
+	- POST: login=1&user=demomeditel&pass=meditelsm&Submit=Ok
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/04/2013 14:59:45
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.3.6; es-us; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+	- IP: 181.93.136.155
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: POST
+	- GET: put=home
+	- POST: login=1&user=demomeditel&pass=meditelsm&Submit=Ok
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/04/2013 14:59:47
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.3.6; es-us; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+	- IP: 181.93.136.155
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: POST
+	- GET: put=home
+	- POST: login=1&user=demomeditel&pass=meditelsm&Submit=Ok
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+			p.id_estado_proyecto = 3 AND
+			p.plantilla = 0
+	
+						ORDER BY 
+							' at line 8
+SQL: 
+SELECT 
+			p.*,
+			s.nombre AS sucursal
+		FROM 
+			proyectos p
+			JOIN sucursales s ON p.id_sucursal = s.id_sucursal
+		WHERE 
+			p.id_cliente =  AND
+			p.id_estado_proyecto = 3 AND
+			p.plantilla = 0
+	
+						ORDER BY 
+							nombre DESC
+					 LIMIT 0, 100
+
+-----
+Informacion: 
+	- Fecha: 03/04/2013 15:32:08
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.3.6; es-us; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+	- IP: 181.93.136.155
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=auditorias_search
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/04/2013 15:33:40
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.3.6; es-us; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+	- IP: 181.93.136.155
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/04/2013 15:34:37
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.3.6; es-us; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+	- IP: 181.93.136.155
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/04/2013 15:34:58
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.3.6; es-us; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+	- IP: 181.93.136.155
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/04/2013 15:35:23
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.3.6; es-us; GT-N7000 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+	- IP: 181.93.136.155
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 13/05/2013 10:17:52
+	- Agente: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+	- IP: 200.61.182.145
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: POST
+	- GET: put=home
+	- POST: login=1&user=meditel&pass=meditelms+&Submit=Ok
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 13/05/2013 10:17:57
+	- Agente: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+	- IP: 200.61.182.145
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 13/05/2013 10:25:41
+	- Agente: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+	- IP: 200.61.182.145
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 13/05/2013 10:25:45
+	- Agente: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+	- IP: 200.61.182.145
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/07/2013 11:14:26
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.2.2; es-sa; LG-P990h Build/FRG83G) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.0/1.2
+	- IP: 200.117.52.29
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: POST
+	- GET: put=home
+	- POST: login=1&user=meditel&pass=meditwlms&Submit=Ok
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/07/2013 11:14:27
+	- Agente: Mozilla/5.0 (Linux; U; Android 2.2.2; es-sa; LG-P990h Build/FRG83G) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.0/1.2
+	- IP: 200.117.52.29
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 26/07/2013 16:07:03
+	- Agente: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+	- IP: 181.31.251.174
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: POST
+	- GET: put=home
+	- POST: login=1&user=test&pass=test&Submit=Ok
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY nombre ASC LIMIT 1' at line 1
+SQL: 
+SELECT id_proyecto FROM proyectos WHERE plantilla = 1 AND id_cliente =  ORDER BY nombre ASC LIMIT 1
+
+-----
+Informacion: 
+	- Fecha: 26/07/2013 16:07:17
+	- Agente: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+	- IP: 181.31.251.174
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_variables_generales
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 26/07/2013 16:07:24
+	- Agente: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+	- IP: 181.31.251.174
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY nombre ASC LIMIT 1' at line 1
+SQL: 
+SELECT id_proyecto FROM proyectos WHERE plantilla = 1 AND id_cliente =  ORDER BY nombre ASC LIMIT 1
+
+-----
+Informacion: 
+	- Fecha: 26/07/2013 16:07:38
+	- Agente: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+	- IP: 181.31.251.174
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=reporte_tab_variables_generales
+	- POST: 
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/10/2013 23:44:38
+	- Agente: Mozilla/5.0 (Linux; U; Android 4.0.3; es-sa; LG-E612g Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+	- IP: 190.31.221.184
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: POST
+	- GET: put=home
+	- POST: login=1&user=meditel&pass=medidelms&Submit=Ok
+=====================================
+Mensaje: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.i' at line 18
+SQL: 
+
+				SELECT 
+					AVG(
+						(
+							SELECT 
+								SUM(t.tiempo) AS total 
+							FROM 
+								tareas t 
+							WHERE
+								t.id_proyecto = p.id_proyecto AND
+								t.ocultar = 0
+							GROUP BY
+								p.id_proyecto
+						)
+					) AS promedio
+				FROM 
+					proyectos p
+				WHERE
+					p.id_cliente =  AND
+					p.id_estado_proyecto = 3 AND
+					p.plantilla = 0
+				GROUP BY
+					p.id_cliente
+				
+
+-----
+Informacion: 
+	- Fecha: 03/10/2013 23:45:07
+	- Agente: Mozilla/5.0 (Linux; U; Android 4.0.3; es-sa; LG-E612g Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+	- IP: 190.31.221.184
+	- Archivo: /home/mystery/public_html/clientes/admin/index.php
+	- Metodo: GET
+	- GET: put=home
+	- POST: 
+=====================================

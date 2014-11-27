@@ -1,0 +1,5 @@
+/*  
+ * The Loom framework
+ * (c) Extrema Sistemas de Informacion
+ * Distributed under the Apache License, Version 2.0
+ */

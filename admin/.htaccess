@@ -1,0 +1,5 @@
+AuthName "admin"
+AuthType "basic"
+AuthUserFile /home/mystery/public_html/admin/.passwd
+Require valid-user
+RewriteOptions inherit

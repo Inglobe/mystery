@@ -1,0 +1,84 @@
+/*encabezado*/
+#logo_bg {
+	background-image: linear-gradient(bottom, rgb(0,0,0) 12%, rgb(102,102,102) 82%);
+	background-image: -o-linear-gradient(bottom, rgb(0,0,0) 12%, rgb(102,102,102) 82%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 12%, rgb(102,102,102) 82%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 12%, rgb(102,102,102) 82%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 12%, rgb(102,102,102) 82%);
+	background-color:#595959;
+}
+#header_line li a:hover {
+	background-color:#8FBE00;
+	color:#FFF;
+}
+/*degrade de todo el sistema*/
+.gradient_theme {
+	background-image: linear-gradient(bottom, rgb(124,165,0) 0%, rgb(153,204,0) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(124,165,0) 0%, rgb(153,204,0) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(124,165,0) 0%, rgb(153,204,0) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(124,165,0) 0%, rgb(153,204,0) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(124,165,0) 0%, rgb(153,204,0) 100%);
+	background-color:#8FBE00;
+}
+/*borde botones*/
+.button {
+	border: 1px solid #DBE8B1;
+}
+input[type='Submit'] {
+	border: 1px solid #DBE8B1;
+}
+.box_stadistics_home tr:hover, .table_list  tr:hover {
+	background-color: #DBE8B1;
+}
+/*menu lateral*/
+#menu_content .tit_menu {
+	border: 1px solid #DBE8B1;
+	background-color:#8FBE00;
+	color:#FFF;
+}
+#menu_content li {
+	color:#8FBE00;
+}
+#menu_content li a {
+	background-image: url(../images/arrow-green-trans.png);
+}
+/*color titulos*/
+.title_color {
+	color:#6F9300;
+}
+#page_tittle h1 {
+	color:#6F9300;
+}
+#page_tittle_color h1 {
+	color:#FFF;
+}
+/*complemento fotos*/
+
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {
+	background-color:#DBE8B1;
+}
+#agileUploaderFileList li {
+	border: 5px solid #DBE8B1;
+}
+#photo_gallery_cont li {
+	border: 5px solid #DBE8B1;
+}
+/*links home*/
+#home_filters a{
+	color:#6F9300;
+}
+/*fondos*/
+.bg_color_type_1 {
+	background-color:#FF9D03;
+}
+.bg_color_type_2 {
+	background-color:#8FBE00;
+}
+/*lista home*/
+.tips_list li {
+	color:#6F9300;
+}
+/*paginador*/
+#paginacion a {
+	color:#6F9300;
+}

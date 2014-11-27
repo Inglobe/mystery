@@ -1,0 +1,155 @@
+body {
+	margin: 10px;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a {
+	color: #666666;
+	text-decoration:none;
+}
+a:hover {
+	color: #666666;
+	text-decoration:underline;
+}
+textarea, input {
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+form {
+	margin:0px;
+}
+#cbza_pop {
+	background-image: url(../imagenes/pop_tarea_cbza.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 80px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E7E7E7;
+}
+#pop_tarea {
+	width: 410px;
+}
+#datos_proyecto {
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+#cbza_pop img {
+	position: absolute;
+	left: 10px;
+	top: 8px;
+}
+.dato {
+	clear: both;
+}
+.dato_izq {
+	float: left;
+	width: 120px;
+	text-align: right;
+	padding-right: 4px;
+}
+.datos_der {
+	float: left;
+	width: 220px;
+	color: #063974;
+}
+#cuerpo_pop {
+	background-image: url(../imagenes/pop_tarea_fondo_repeat.jpg);
+	background-repeat: repeat-y;
+}
+.linea {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E7E7E7;
+	height: 1px;
+	clear: both;
+	padding-top: 10px;
+}
+.obs_izq {
+	float: left;
+	width: 130px;
+	margin-top: 10px;
+}
+.obs_der {
+	float: left;
+	position: relative;
+	padding-top: 10px;
+}
+.obs_der img {
+	position: absolute;
+	top: 7px;
+}
+#ico_fecha {
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
+#observaciones {
+	position: relative;
+}
+#observaciones textarea{
+	width:211px;
+	height:50px;
+}
+#descripcion {
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	position: relative;
+}
+#descripcion textarea{
+	width:374px;
+	height:50px;
+}
+#descripcion input{
+	width:374px;
+	margin-bottom: 5px;
+}
+#pie_pop {
+	background-image: url(../imagenes/pop_tarea_pie.jpg);
+	height: 6px;
+}
+#btns {
+	text-align: right;
+	padding-right: 12px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+#archivos_adjuntos {
+	padding-left: 36px;
+	padding-top: 10px;
+}
+.ico_adjuntos {
+	list-style-type: none;
+	background-image: url(../imagenes/pop_tarea_ico_adjuntos.gif);
+}
+#archivos_adjuntos ul {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+#estado {
+	padding-left: 16px;
+	padding-top: 10px;
+}
+#estado img {
+	position: absolute;
+	left: 71px;
+}
+#scroll {
+	height: 70px;
+	overflow: auto;
+	margin-right: 18px;
+	margin-top: 10px;
+}
+#please_wait {
+	text-align: center;
+	margin-top: 200px;
+}

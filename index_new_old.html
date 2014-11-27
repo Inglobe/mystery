@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>COWORKING COR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Punto de unión para emprendedores e innovadores">
+    <meta name="author" content="Ignacio" >
+    <meta name="keywords" content="coworking, innovación, software, tecnología, diseño, espacio">
+		<script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 			 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-42009021-1', 'coworking-cor.com');
+  			ga('send', 'pageview');
+
+		</script>
+
+    <!-- Le styles -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/mystyle.css" rel="stylesheet">
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+<script>
+
+/*
+Browser Language Redirect script- By JavaScript Kit
+For this and over 400+ free scripts, visit http://www.javascriptkit.com
+This notice must stay intact
+*/
+
+//Enter ISO 639-2 letter Language codes to detect (see: http://www.w3.org/WAI/ER/IG/ert/iso639.htm):
+var langcodes=new Array("en", "es", "default")
+
+//Enter corresponding redirect URLs (last one is for default URL):
+var langredirects=new Array("english.htm", "spanish.htm", "index.htm")
+
+var languageinfo=navigator.language? navigator.language : navigator.userLanguage
+var gotodefault=1
+
+function redirectpage(dest){
+if (window.location.replace)
+window.location.replace(dest)
+else
+window.location=dest
+}
+
+for (i=0;i<langcodes.length-1;i++){
+if (languageinfo.substr(0,2)==langcodes[i]){
+redirectpage(langredirects[i])
+gotodefault=0
+break
+}
+}
+
+if (gotodefault)
+redirectpage(langredirects[langcodes.length-1])
+
+
+</script>
+</head>
+
+
+
+
+					

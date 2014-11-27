@@ -1,0 +1,76 @@
+#paginacion {
+	height:1%;
+	overflow:hidden;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #CCC;
+	padding-top:10px;
+	margin-top:10px;
+}
+#paginacion #page_number_of {
+	float:left;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+#paginacion #btn_first_page {
+	float:left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+#paginacion #btn_previous_page {
+	float:left;
+}
+#paginacion #numbers {
+	float:left;
+}
+#paginacion #btn_next_page {
+	float:left;
+}
+#paginacion #btn_last_page {
+	float:left;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+#paginacion .number {
+	float:left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+#paginacion .number:first-child {
+	float:left;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+#paginacion a {
+	display:block;
+	text-decoration:none;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+#paginacion .active {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #D5D5D5;
+	border-right-color: #D5D5D5;
+	border-bottom-color: #D5D5D5;
+}
+#paginacion .active a {
+	color:#000;
+	font-weight:bold;
+}
+#paginacion a:hover {
+	background-color:#DBE8B1;
+	color:#000;
+}

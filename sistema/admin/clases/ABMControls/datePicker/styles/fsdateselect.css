@@ -1,0 +1,38 @@
+#FSmainTable {border:1px solid #999999; background-color:#FFFFFF;}
+.FSdateField {
+	width:57px;
+	border:0;
+	font-size:11px;
+	margin-right: 0px;
+	padding-top: 1px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 3px;
+}
+.FSdateSelect{
+	background-color:white;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	float:left;
+	border:1px solid #999999; 
+	background-color:white;
+}
+.campo_unido input {
+	height:12px;
+}
+.FSmonthRolldown	{width:90px; font-size:11px;}
+.FSyearInput		{width:38px; font-size:11px;}
+.FSbuttonsRow		{background-color:#DDDDDD;}
+.FSdateButton		{width:20px; height:20px; font-weight:bold; font-size:10px;}
+.FSdateButton2		{width:40px; height:20px; font-weight:normal; font-size:10px}
+.FScalendarTitles TD{border-bottom:1px solid black; font-size:11px; color:#CCCCCC; line-height:14px;}
+.FScalendar TD		{font-size:11px; font-weight:normal}
+.FSinMonth			{color:#333333; text-decoration:none; width:22px; height:12px; line-height:14px}
+.FSnotInMonth		{color:#999999; text-decoration:none; width:22px; height:12px; line-height:14px}
+.FSinMonth:hover	{font-weight:bold}
+.FSnotInMonth:hover	{font-weight:bold}
+.FSoutOfRange		{color:red; line-height:14px}
+#FSrangeCell		{visibility:hidden;}
+#FSdateToday		{font-size:11px; font-weight:bold; line-height:20px; background-color:#00FFFF; display: none;}

@@ -1,0 +1,156 @@
+.infiniteCarousel {
+	width: 610px;
+	height:125px;
+	position: absolute;
+	margin-bottom:20px;
+	margin-left:13px;
+	margin-top:15px;
+	left:10px;
+}
+.infiniteCarousel .wrapper {
+	width: 610px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+	overflow: auto;
+	min-height: 125px;
+	position: absolute;
+	top: 0;
+}
+.infiniteCarousel ul a img {
+	border: 1px solid #FFF;
+}
+.infiniteCarousel .wrapper ul {
+	width: 9999px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+	top: 0;
+}
+.infiniteCarousel ul li h3 {
+	color:#615139;
+	font-size:11px;
+	padding-top:5px;
+	padding-left:10px;
+}
+.infiniteCarousel ul li {
+	display:block;
+	float:left;
+	height: 87px;
+	width: 110px;
+	padding-right: 15px;
+}
+.infiniteCarousel ul li a img {
+	display:block;
+}
+.infiniteCarousel ul li img {
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+.infiniteCarousel ul li img:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+.infiniteCarousel .arrow {
+	display: block;
+	height: 86px;
+	width: 11px;
+	background: url(../imagenes/arrow.png) no-repeat 0 0;
+	text-indent: -9999px;
+	position: absolute;
+	cursor: pointer;
+}
+.infiniteCarousel .forward {
+	background-position: 0 0;
+	right: -11px;
+	top:-1px;
+}
+.infiniteCarousel .back {
+	background-position: 0 -172px;
+	left: -11px;
+	top:-1px;
+}
+.infiniteCarousel .forward:hover {
+	background-position: 0 -86px;
+}
+.infiniteCarousel .back:hover {
+	background-position: 0 -258px;
+}
+/**/
+
+.infiniteCarousel2 {
+	width: 690px;
+	height:83px;
+	position: absolute;
+	margin-bottom:20px;
+	left:0px;
+}
+.infiniteCarousel2 .wrapper {
+	width: 690px; /* .infiniteCarousel2 width - (.wrapper margin-left + .wrapper margin-right) */
+	overflow: auto;
+	min-height: 83px;
+	position: absolute;
+	top: 0;
+}
+.infiniteCarousel2 .wrapper ul {
+	width: 9999px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+	top: 0;
+}
+.infiniteCarousel2 ul li a h3 {
+	color:#FFF;
+	font-size:11px;
+	padding-top:5px;
+	background-image: url(../imagenes/ico_lista-trans.png);
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	padding-left:10px;
+}
+.infiniteCarousel2 ul li {
+	display:block;
+	float:left;
+	height: 83px;
+	width: 134px;
+	padding-right: 5px;
+}
+.infiniteCarousel2 ul li a img {
+	display:block;
+}
+.infiniteCarousel2 ul li img {
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+.infiniteCarousel2 ul li img:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+.infiniteCarousel2 .arrow {
+	display: block;
+	height: 86px;
+	width: 11px;
+	background: url(../imagenes/arrow2.png) no-repeat 0 0;
+	text-indent: -9999px;
+	position: absolute;
+	cursor: pointer;
+}
+.infiniteCarousel2 .forward {
+	background-position: 0 0;
+	right: -15px;
+	top:-1px;
+}
+.infiniteCarousel2 .back {
+	background-position: 0 -172px;
+	left: -15px;
+	top:-1px;
+}
+.infiniteCarousel2 .forward:hover {
+	background-position: 0 -86px;
+}
+.infiniteCarousel2 .back:hover {
+	background-position: 0 -258px;
+}

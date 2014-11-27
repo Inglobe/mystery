@@ -1,0 +1,61 @@
+#makeMeScrollable {
+	width:952px;
+	height: 44px;
+	position: relative;
+	clear:both;
+	padding-bottom:20px;
+	background-color:#FFF;
+}
+#makeMeScrollable div.scrollableArea img {
+	position: relative;
+	float: left;
+	padding-left:20px;
+	padding-right:20px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E4E4E4;
+}
+div.scrollingHotSpotLeft {
+	width: 75px;
+	height: 44px;
+	background-image: url(big_transparent.gif);
+	background-repeat: repeat;
+	background-position: center center;
+	position: absolute;
+	z-index: 200;
+	left: 0;
+	top:0;
+	cursor: url(cursor_arrow_left.cur), url(cursor_arrow_left.cur), w-resize;
+}
+div.scrollingHotSpotLeftVisible {
+	background-image: url(arrow_left.png);
+	background-repeat: no-repeat;
+}
+div.scrollingHotSpotRight {
+	width: 75px;
+	height: 44px;
+	background-image: url(big_transparent.gif);
+	background-repeat: repeat;
+	background-position: center center;
+	position: absolute;
+	z-index: 200;
+	right: 0;
+	top:0;
+	cursor: url(cursor_arrow_right.cur), url(cursor_arrow_right.cur), e-resize;
+}
+/* Visible right hotspot */
+div.scrollingHotSpotRightVisible {
+	background-image: url(arrow_right.png);
+	background-repeat: no-repeat;
+}
+div.scrollWrapper {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+div.scrollableArea {
+	position: relative;
+	width: auto;
+	height: 100%;
+}

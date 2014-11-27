@@ -1,0 +1,39 @@
+body, #content_bg  {
+	background-color:#FFF;
+}
+#page_tittle, #header_line, .tabs li, #footer, #footer_data {
+	display:none;
+}
+.tabs .active {
+	display:block;
+	border:none;
+}
+.tabs .active a{
+	padding:0px;
+}
+.grafic_chart .separator h3 {
+	color:#000;
+	margin-left:0px;
+}
+.gradient_theme, .grafic_chart, #grafics_data, .block {
+	background:none;
+	border:none;
+	margin-left:0px;
+	margin-right:0px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	padding:0px;
+}
+.block {
+	margin-bottom:0px;
+}
+.grafic_chart {
+	page-break-after: always;
+}
+#conteniner_tabs {
+	position:static
+}
+.light_row {
+	line-height:20px;
+}

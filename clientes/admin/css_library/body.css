@@ -1,0 +1,15 @@
+body {
+	background-color: #000;
+	/*background-image: url(../images/background.png);*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	margin: 0px;
+}
+/*#body_bg {
+	background-image: url(../images/bg_repeat.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top:20px;
+	padding-bottom:20px;
+}*/

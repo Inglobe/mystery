@@ -1,0 +1,44 @@
+/*
+ * Calendar CSS classes
+ */
+
+div.calendar { font-size: 11px; color: #000; }
+div.calendar.popup { margin-top: 30px; z-index: 2; }
+
+div.calendar.horizontal table.calendar { float: left; }
+div.calendar.horizontal.popup table.time { float: left; }
+
+div.calendar table { margin: 0; padding: 0; background-color: #eee; border: 1px solid #ccc; border-spacing: 0px;}
+div.calendar td,
+div.calendar th { padding: 3px; text-align: center; border: 1px solid #eee; background-color: #eee; }
+div.calendar th { background: #ddd; font-weight: bold; color: #555; }
+div.calendar td.title { font-weight: bold;  background: #fff; }
+
+div.calendar thead button { border: 0; margin: 0; padding: 0; background-color: #eee; font-size: 11px; }
+div.calendar thead td.button:hover,
+div.calendar thead td.button:hover button { background-color: #ccc; }
+
+div.calendar tbody td.button { padding: 2px; width: 2em; background-color: #fff; color: #555; text-align: center; cursor: pointer; }
+div.calendar tbody td.button:hover { background-color: #77a0fa; cursor: pointer; font-weight: bold; }
+div.calendar tr.days td:active
+div.calendar td.otherDay { color: #bbb; }
+div.calendar td.unselectable { color: #aaa; }
+
+div.calendar td.button:active { background-color: #cde; }
+
+div.calendar tr td.selected { font-weight: bold; background-color: #ddd; color: #000; }
+div.calendar tr td.weekend { background-color: #ddd; }
+div.calendar td.weekend.unselectable { color: #aaa; background-color: #eee; }
+div.calendar tr td.today { font-weight: bold; color: #D50000; }
+
+div.calendar tr.sep td { padding: 0; margin: 0; }
+div.calendar tr.sep td hr { padding: 0; margin: 2px 0; height: 1px; color: #eee; }
+
+
+div.calendar tr.exactMinutes td.label { text-align: right; }
+div.calendar tr.exactMinutes td.minutes { padding: 0; margin: 0; text-align: center; background-color: #eee; border: 2px solid #eee;}
+div.calendar tr.exactMinutes td.minutes:hover { border: 2px solid #77a0fa; background-color: #77a0fa; }
+div.calendar tr.exactMinutes td.selected { border: 2px solid #ccc; background-color: #ccc; }
+div.calendar tr.exactMinutes td.minutes input { width: 2em; border: 1px solid #ccc; font-size: 11px; background-color: #fff; text-align: center; }
+
+a.dateButton { background: transparent url('calendar.gif') 0 2px no-repeat; text-indent: -2500px; position: absolute; width: 16px; height: 17px; margin-left: 5px; cursor: pointer; }

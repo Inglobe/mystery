@@ -1,0 +1,60 @@
+/*
+ * Accordionza jQuery Plugin
+ * Copyright 2010, Geert De Deckere <geert@idoe.be>
+ */
+
+#accordion {
+	height:317px;
+	list-style:none;
+	margin:0;
+	overflow:scroll;
+	padding:0;
+	width:960px;
+}
+#accordion li {
+	height:317px; /* Needed in case javascript is disabled */
+	position:relative;
+	-webkit-box-shadow: 0 0 10px #000;
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-border-radius: 12px;
+}
+#accordion .slide1 {
+	background-image: url(../../imagenes/accordion/01.jpg);
+	background-repeat:no-repeat;
+}
+#accordion .slide2 {
+	background-image: url(../../imagenes/accordion/02.jpg);
+	background-repeat:no-repeat;
+}
+#accordion .slide3 {
+	background-image: url(../../imagenes/accordion/03.jpg);
+	background-repeat:no-repeat;
+}
+#accordion .slide_handle {
+	height:317px;
+	width:145px;
+}
+#accordion .slide_content {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#accordion a {
+	display:block;
+	width:641px;
+	text-align:right;
+	padding-top:250px;
+	padding-right:31px;
+	padding-bottom:30px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color:#FFF;
+	text-decoration:none;
+	font-size:44px;
+	font-weight:normal;
+	text-shadow: 2px 2px 0px #000;
+	-webkit-text-shadow: 2px 2px 0px #000;
+	-moz-text-shadow: 2px 2px 0px #000;
+}
+#accordion a span {
+	color:#F9EA72;
+}

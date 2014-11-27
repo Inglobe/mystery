@@ -1,0 +1,11 @@
+<?
+	define("LTChat_Main_CHAT_ID","0");
+	define("LTChat_Main_lang","english");
+	define("LTChat_Main_datasource","mysql");
+	define("LTChat_Main_scriptpath","/zas/chat");
+	define("LTChat_Main_dbhost","localhost");
+	define("LTChat_Main_dbname","ke000016_zas");
+	define("LTChat_Main_dbuser","ke000016_zas_con");
+	define("LTChat_Main_dbpassword","conexted");
+	define("LTChat_Main_prefix","chat_");
+?>
