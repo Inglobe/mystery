@@ -79,9 +79,9 @@ function mail_html($para,$remitente_email,$remitente_nombre,$reply_to,$asunto,$h
 	$result_consulta = mysql_query("SELECT * FROM parametros",$link);
 	$fila_parametros=mysql_fetch_array($result_consulta);
 	$fila_parametros["metodo_envio"] = "smtp";
-	$fila_parametros["host_smtp"] = "200.58.122.104";
-	$fila_parametros["usr_smtp"] = "marianomoreno@zephia.com.ar";
-	$fila_parametros["pass_smtp"] = "estudio22";
+	$fila_parametros["host_smtp"] = "smtp.webfaction.com";
+	$fila_parametros["usr_smtp"] = "mysteryweb";
+	$fila_parametros["pass_smtp"] = "im2010na";
 
 	//LOG MAIL
 	if($log_mail){
@@ -91,7 +91,7 @@ function mail_html($para,$remitente_email,$remitente_nombre,$reply_to,$asunto,$h
 		$headers.="Envelope-to: ".$para.$salto;
 		$headers.="To: ".$para.$salto;
 		$headers.="Subject: ".$asunto.$salto;
-		$headers.="From: ".$remitente_nombre." <".$remitente_email.">".$salto;
+		$headers.="From: website@mail.mysterysur.com.ar".$salto;
 		$headers.="Reply-To: ".$reply_to.$salto;
 		$headers.="X-Mailer: PHP/".phpversion().$salto;
 		$headers.="MIME-version: 1.0".$salto;
