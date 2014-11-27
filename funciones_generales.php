@@ -156,7 +156,7 @@ function mail_html($para,$remitente_email,$remitente_nombre,$reply_to,$asunto,$h
 
 		case "php":
 		default:
-			$headers="From: ".$remitente_nombre." <".$remitente_email.">".$salto;
+			$headers="From: website@mail.mysterysur.com.ar".$salto;
 			$headers.="Reply-To: ".$reply_to.$salto;
 			$headers.="X-Mailer: PHP/".phpversion().$salto;
 			$headers.="MIME-version: 1.0".$salto;
