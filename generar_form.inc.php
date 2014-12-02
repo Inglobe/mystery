@@ -33,9 +33,9 @@ if(isset($_POST["email"])){
 	}
 }
 if(comprobar_email($_POST["email"])){
-	if(mail_html($fila_parametros["email_contactenos"],"website@mysteryshopper.com.ar",$fila_parametros["nombre_email_contactenos"],$_POST["email"],$_POST["email_asunto"],$html,strip_tags($html),true)){
+	if(mail_html($fila_parametros["email_contactenos"],"website@mail.mysterysur.com.ar",$fila_parametros["nombre_email_contactenos"],$_POST["email"],$_POST["email_asunto"],$html,strip_tags($html),true)){
 		//echo "OK";
-		mail_html($_POST["email"],"website@mysteryshopper.com.ar",$fila_parametros["nombre_email_contactenos"],$fila_parametros["email_contactenos"],$_POST["email_usuario_asunto"]." ".$nombre,$html_usuario,strip_tags($html_usuario));
+		mail_html($_POST["email"],"website@mail.mysterysur.com.arwebsite@mail.mysterysur.com.ar",$fila_parametros["nombre_email_contactenos"],$fila_parametros["email_contactenos"],$_POST["email_usuario_asunto"]." ".$nombre,$html_usuario,strip_tags($html_usuario));
 	}
 	else{
 		echo "ERROR al enviar el formulario.";
