@@ -80,7 +80,7 @@ function mail_html($para,$remitente_email,$remitente_nombre,$reply_to,$asunto,$h
 	$fila_parametros=mysql_fetch_array($result_consulta);
 	$fila_parametros["metodo_envio"] = "smtp";
 	$fila_parametros["host_smtp"] = "smtp.webfaction.com";
-	$fila_parametros["usr_smtp"] = "mysteryweby";
+	$fila_parametros["usr_smtp"] = "mysteryweb";
 	$fila_parametros["pass_smtp"] = "im2010na";
 
 	//LOG MAIL

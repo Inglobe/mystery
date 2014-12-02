@@ -107,7 +107,7 @@ if( $put == "home"){
       </ul>
     </div>
     <a href="index.php?put=home"><img src="imagenes/logo_pie.png" width="124" height="41" alt="" id="logo_pie" /></a>
-    <div id="box_newsletters"><strong>Suscripci&oacute;n a newsletter</strong>
+    <!--<div id="box_newsletters"><strong>Suscripci&oacute;n a newsletter</strong>
       <form action="index.php?put=suscripcion-feed" class="validador_form" name="form_suscribe" method="post" id="form_suscribe" enctype="application/x-www-form-urlencoded" onsubmit="return checkForm('form_suscribe')">
         <div class="campo">Nombre y Apellido<br />
           <input type="hidden" name="campo_nombre" value="Nombre"/>
@@ -119,10 +119,10 @@ if( $put == "home"){
         </div>
         <input name="" type="image" src="imagenes/btn_enviar_pie.png" id="btn" />
       </form>
-    </div>
+    </div>-->
   </div>
 </div>
-<script type="text/javascript">
+<!--<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-31157180-1']);
@@ -134,6 +134,6 @@ if( $put == "home"){
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script>-->
 </body>
 </html>
