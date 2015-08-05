@@ -1,5 +1,5 @@
 AuthName "admin"
 AuthType "basic"
-AuthUserFile /home/mystery/public_html/admin/.passwd
+AuthUserFile /home/imartinp/webapps/mysterysur/admin/.htpasswd
 Require valid-user
 RewriteOptions inherit
